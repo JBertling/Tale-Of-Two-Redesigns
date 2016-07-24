@@ -304,6 +304,18 @@ body {
   text-transform: none;
   font-size: 40px;
 }
+.reveal .selfclear {
+  clear: both;
+  overflow: hidden;
+}
+.reveal table td {
+  padding: 15px 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.reveal table .rank td {
+  border: none;
+}
 .reveal .plus {
   font-size: 50px;
   line-height: 150px;
@@ -316,7 +328,6 @@ body {
 .reveal .left-40 {
   float: left;
   width: 40%;
-  min-width: 200px;
   box-sizing: border-box;
 }
 .reveal .logo {
@@ -326,4 +337,12 @@ body {
 .reveal .logo img {
   vertical-align: middle;
   line-height: 150px;
+}
+.reveal table p {
+  margin-top: -20px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background: #d05609;
+  box-shadow: 3px 3px 3px #000;
 }
