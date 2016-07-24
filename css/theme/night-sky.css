@@ -290,7 +290,8 @@ body {
   text-shadow: 1px 1px 1px #000;
 }
 .reveal h1,
-.reveal h2 {
+.reveal h2,
+.reveal .plus {
   font-family: 'Bungee', Impact, Arial, Helvetica, Sans-serif;
   font-weight: normal;
   text-shadow: 3px 3px 3px #000;
@@ -302,4 +303,27 @@ body {
 .reveal h2 {
   text-transform: none;
   font-size: 40px;
+}
+.reveal .plus {
+  font-size: 50px;
+  line-height: 150px;
+}
+.reveal .left-10 {
+  float: left;
+  width: 10%;
+  box-sizing: border-box;
+}
+.reveal .left-40 {
+  float: left;
+  width: 40%;
+  min-width: 200px;
+  box-sizing: border-box;
+}
+.reveal .logo {
+  height: 150px;
+  line-height: 150px;
+}
+.reveal .logo img {
+  vertical-align: middle;
+  line-height: 150px;
 }
