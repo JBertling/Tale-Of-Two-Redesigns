@@ -1,38 +1,141 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title>reveal.js</title>
-
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
-
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>A Tale of Two Redesigns</title>
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/night-sky.css">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Hind|Montserrat|Open+Sans" rel="stylesheet">
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section id="start" data-background-image="img/backgrounds/firepit.gif" data-transition="slide-out fade-out" data-transition-speed="slow">
+				<h1>
+					<span>Campfire Stories</span>
+					A Tale Of Two Redesigns
+				</h1>
+				<img src="img/header-logo.png" />
+			</section>
+			<section id="s2" data-background-image="img/backgrounds/stir.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
+				<h1>Hi! I'm Jess</h1>
+				<h2>I'm A Front End Developer &amp; User Experience Designer</h2>
+				<p>On Twitter: @JBertling</p>
+			</section>
+			<section id="s3" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
+				<h1>The Year Is 2012</h1>
+				<ul>
+					<li class="fragment">
+						Responsive is catching its footing.<br />
+						<small>But not on large scale sites</small>
+					</li>
+					<li class="fragment">
+						Touch device explosion.<br />
+						<small>Rapid development of sizes and OS</small>
+					</li>
+					<li class="fragment">
+						HTML5 and CSS3 standards support.<br />
+						<small>But still a lot on older browsers</small>
+					</li>
+					<li class="fragment">
+						MAG Retail is formed.
+					</li>
+				</ul>
+			</section>
+			<section id="s4" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
+				<h1>
+					<span>Wait, who is this</span>
+					MAG Retail?
+				</h1>
+				<div class="selfclear">
+					<div class="left-40 logo">
+						<img src="img/mss-logo.png" />
+					</div>
+					<div class="left-10">
+						<span class="plus">+</span>
+					</div>
+					<div class="left-40 logo">
+						<img src="img/jp-logo.png" />
+					</div>
+				</div>
+			</section>
+			<section id="s5" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
+				<table>
+					<tbody>
+						<tr class="rank">
+							<td style="width:40%;">
+								<img src="img/mss-logo.png" />
+							</td>
+							<td>
+							</td>
+							<td style="width: 40%;">
+								<img src="img/jp-logo.png" />
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>Internet Retailer <span>#xxx</span></p>
+							</td>
+							<td>
+							</td>
+							<td>
+								<p>Internet Retailer <span>#xxx</span></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								xxx
+							</td>
+							<td>
+								Revenue
+							</td>
+							<td>
+								xxx
+							</td>
+						</tr>
+						<tr>
+							<td>
+								xxx
+							</td>
+							<td>
+								Visits/Mo.
+							</td>
+							<td>
+								xxx
+							</td>
+						</tr>
+						<tr>
+							<td>
+								xxx
+							</td>
+							<td>
+								SKUS
+							</td>
+							<td>
+								xxx
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
 		</div>
+</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
 
-		<script>
+<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
