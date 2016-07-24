@@ -285,11 +285,21 @@ body {
 
 
 /***** MY STYLES ******/
-#start h1 {
-     font-family: 'Bungee', Impact, Arial, Helvetica, Sans-serif;
-     font-weight: normal;
+.reveal {
+  font-family: "Hind", Tahoma, Arial, Helvetica, Sans-serif;
+  text-shadow: 1px 1px 1px #000;
 }
-#start h1 span {
-     display: block;
-     font-size: 40px;
+.reveal h1,
+.reveal h2 {
+  font-family: 'Bungee', Impact, Arial, Helvetica, Sans-serif;
+  font-weight: normal;
+  text-shadow: 3px 3px 3px #000;
+}
+.reveal h1 span {
+  display: block;
+  font-size: 40px;
+}
+.reveal h2 {
+  text-transform: none;
+  font-size: 40px;
 }
