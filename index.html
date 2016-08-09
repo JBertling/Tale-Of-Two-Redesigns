@@ -125,7 +125,7 @@
 								SKUS
 							</td>
 							<td>
-								xxx
+								~63,000
 							</td>
 						</tr>
 					</tbody>
@@ -177,6 +177,7 @@
                 Source Control: TFS<br />
                 <small>All work to be committed at EOD so it can be pushed to staging.</small>
            </li>
+					 <li>New Development Freeze</li>
 				</ul>
 			</section>
      	<section id="s9" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
@@ -244,6 +245,9 @@
 	                   edited at scale.
 	              </small>
 	         </li>
+					 <li class="fragment">
+						 Fell behind competitors due to over a year of devlopment freeze.
+					 </li>
 				</ul>
 			</section>
 			<section id="s12" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
@@ -287,7 +291,11 @@
 					</li>
 					<li class="fragment">
 						Responsive ONLY<br />
-						<small>Design stays (mostly) static.</small>
+						<small>Design stays (mostly) static. This is a tall order.</small>
+					</li>
+					<li class="fragment">
+						Must work in IE8 (still significant traffic, revenue)<br />
+						<small>And no media query support</small>
 					</li>
 					<li class="fragment">
 						Deploy as completed, constantly measure.
@@ -371,9 +379,86 @@
 					</li>
 					<li class="fragment">
 						New CSS/JS As You Go<br />
-						<small>Build a framework, around the style guide, as you go. Create reusable and efficient classes.</small>
+						<small>Create reusable and efficient classes based on a style guide as you need them.<br />Do code reviews so colleagues know what's in the CSS that they can use.</small>
 					</li>
 				</ul>
+			</section>
+			<section id="s19" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
+				<h1>
+					How We Did It
+				</h1>
+				<ul>
+					<li>
+						Mobile First CSS<br />
+						<small>With a specific stylesheet for IE8 that was essentially the desktop styles added in without a media query.</small>
+					<li class="fragment">
+						Mobile First Images &amp; Sprites<br />
+						<small>Used background images wherever possible to control image loading.<br />Broke up some sprites and only loaded them in appropriate media queries.</small>
+					</li>
+					<li class="fragment">
+						Kept the Media Queries to a Minimum<br />
+						<small>Only 3 viewports, not for specific devices but when the design warrants a break.</small>
+					</li>
+				</ul>
+			</section>
+			<section id="s20" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
+				<h1>
+					How We Did It
+				</h1>
+				<ul>
+					<li>
+						Within An Agile Process<br />
+						<small>Pages and components were storied out, prioritized amongst other things.</small>
+					</li>
+					<li class="fragment">
+						Alongside New Develpment<br />
+						<small>Thanks to advanced source control techniques, we had no need to freeze new development. Any new pages/features were built responsive.</small>
+					</li>
+				</ul>
+			</section>
+			<section id="s21" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
+				<h1>
+					Outcomes
+				</h1>
+				<ul>
+					<li>
+						Despite 2 New Viewports, FASTER Than The Original<br />
+						<small>New optimized CSS, mobile first, flexible design.</small>
+					</li>
+					<li class="fragment">
+						Revenue, Mobile Conversion/Traffic Up<br />
+						<small>We like $$.</small>
+					</li>
+					<li class="fragment">
+						Not A Single Major Bug Reported<br />
+						<small>Thanks to code reviews and careful attention from the team. No QA.</small>
+					</li>
+				</ul>
+			</section>
+			<section id="s22" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
+				<h1>
+					Outcomes
+				</h1>
+				<ul>
+					<li>
+						Completed Faster Than Full Rewrite<br />
+						<small>Despite smaller team and sharing time between initiatives.</small>
+					</li>
+					<li class="fragment">
+						Essentially "No Change" To Desktop Users<br />
+						<small>Never interrupted the original user experience or workflow, smaller devices experience got better.</small>
+					</li>
+					<li class="fragment">
+						Overall A Success Story!
+					</li>
+				</ul>
+			</section>
+			<section id="s22" data-background-image="img/backgrounds/fire.jpg" data-transition="slide-in fade-out" data-transition-speed="slow">
+				<h1>
+					Thanks For Coming!
+				</h1>
+				<h2>Jessica (Jess) Bertling</h2>
+				<h2>@JBertling</h2>
 			</section>
 		</div>
    </div>
